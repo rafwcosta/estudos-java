@@ -1,5 +1,5 @@
 package Revisoes;
 
-public class Main {
+public class Teste1 {
     
 }
