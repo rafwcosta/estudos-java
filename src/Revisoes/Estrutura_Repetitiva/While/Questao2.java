@@ -1,4 +1,4 @@
-package Revisoes.Estrutura_Repetitiva;
+package Revisoes.Estrutura_Repetitiva.While;
 
 import java.util.Locale;
 import java.util.Scanner;
