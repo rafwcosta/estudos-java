@@ -1,9 +1,9 @@
-package Revisoes.Estrutura_Repetitiva;
+package Revisoes.Estrutura_Repetitiva.Exemplos;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Problema_Exemplo1 {
+public class Exemplo1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
