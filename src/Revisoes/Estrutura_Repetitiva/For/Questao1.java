@@ -23,3 +23,5 @@ public class Questao1 {
         sc.close();
     }
 }
+
+/* A estrutura For é para se fazer uma repetição baseada em uma contagem. */
