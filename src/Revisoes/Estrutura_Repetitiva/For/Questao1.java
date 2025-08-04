@@ -8,20 +8,19 @@ public class Questao1 {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
 
-        System.out.print("Digite a quantidade de valores a serem repetidos: ");
-        int n = sc.nextInt();
+        System.out.print("Digite um valor de 1 a 100: ");
+        int valor = sc.nextInt();
 
-        int soma = 0;
-        for (int i=0; i<n; i++) {
-            System.out.print("Digite o valor de X: ");
-            int x = sc.nextInt();
-            soma = soma + x;
+        if (valor < 1 || valor > 1000) {
+            System.out.println("Intervalo inválido.");
+        } else {
+            for (int i=1; i<=valor; i++) {
+                if (i % 2 != 0) {
+                    System.out.println(i);
+                }
+            }
         }
-
-        System.out.println("Soma: " + soma);
 
         sc.close();
     }
 }
-
-/* A estrutura For é para se fazer uma repetição baseada em uma contagem. */
